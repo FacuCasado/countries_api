@@ -6,8 +6,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "test": "jest",
-    "build": "tsc",
-    "deploy": "vercel --prod"
+    "build": "tsc"
   },
   "author": "Henry",
   "license": "ISC",
