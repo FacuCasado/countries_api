@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc && rm -rf build && mkdir build && cp -r src/* build/"
   },
   "author": "Henry",
   "license": "ISC",
